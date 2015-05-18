@@ -17,3 +17,10 @@ Just run the following command in the repository root:
     veewee vbox build adsy-debian-8.0.0
     veewee vbox export adsy-debian-8.0.0
 
+##Issues
+
+Before installing anything you need to call:
+
+    apt-get update
+    
+The image doesn't contain any repository data to make it smaller.
